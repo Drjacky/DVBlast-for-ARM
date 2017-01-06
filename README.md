@@ -65,4 +65,6 @@ Now time to compile:
 At the end of command, it's 'g', not'gcc'.
 
 After compile, if you want to check everything is correct:
+```javascript
 file dvblast
+```
