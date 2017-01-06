@@ -32,7 +32,7 @@ to
 	@echo "CC      $<"
 	$(Q)$(CROSS)$(CC) $(CFLAGS) -c $<
 ```
-
+______________________________________________________________
 ```javascript
 dvblast: $(OBJ_DVBLAST)
 	@echo "LINK    $@"
@@ -44,7 +44,7 @@ dvblast: $(OBJ_DVBLAST)
 	@echo "LINK    $@"
 	$(Q)$(CROSS)$(CC) -o $@ $(OBJ_DVBLAST) $(LDLIBS_DVBLAST) $(LDLIBS)
 ```
-
+______________________________________________________________
 ```javascript
 dvblastctl: $(OBJ_DVBLASTCTL)
 	@echo "LINK    $@"
