@@ -1,4 +1,4 @@
-# DVBlast-for-ARM
+# DVBlast for ARM
 How to compile dvblast from source code for arm processors
 
 # You can read this article on [Medium](https://medium.com/@drjacky/how-to-compile-dvblast-from-source-code-for-arm-processors-77980f660927) too.
